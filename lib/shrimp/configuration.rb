@@ -25,7 +25,8 @@ module Shrimp
           :viewport_height      => 600,
           :max_redirect_count   => 0,
           :header		=> '',
-          :footer		=> ''
+          :footer		=> '',
+          :language		=> ''
       }
     end
 

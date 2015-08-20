@@ -80,7 +80,8 @@ module Shrimp
         viewport_height,
         max_redirect_count,
         header,
-        footer
+        footer,
+        language
       ].join(" ")
     end
 
