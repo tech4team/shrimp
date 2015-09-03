@@ -61,6 +61,7 @@ module Shrimp
       max_redirect_count                = options[:max_redirect_count]
       header		                = "'#{options[:header]}'"
       footer		                = "'#{(options[:footer])}'"
+      language  	                = "'#{(options[:language])}'"
       @outfile                          ||= "#{options[:tmpdir]}/#{Digest::MD5.hexdigest((Time.now.to_i + rand(9001)).to_s)}.pdf"
       command_config_file               = "--config=#{options[:command_config_file]}"
       [
